@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1 class="display-4">Tech Scrapper</h1>
+  <p class="lead">Keep up to date with the latest tech news!</p>
+</div>
+
+<div class="card">
+  <div class="card-body"></div>
+  <div class ="col s8 left-align">
+    {{#each article}}
+      <div class="card-panel">
+        <h4 class="card-title">{{this.title}}</h4>
+        <a href = "/readArticle/{{this._id}}" class="btn btn-primary" id="btnSignUp">Read Article</a>
+      </div>
+    {{/each}}
+  </div>
+</div>
