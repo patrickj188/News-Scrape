@@ -14,9 +14,9 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-// mongoose.connect('mongodb://heroku_dcl884np:heroku_dcl884np@ds221155.mlab.com:21155/heroku_dcl884np', { useMongoClient: true });
+mongoose.connect('mongodb://heroku_dcl884np:heroku_dcl884np@ds221155.mlab.com:21155/heroku_dcl884np', { useMongoClient: true });
 
-mongoose.connect('mongodb://localhost/scraped_news', { useMongoClient: true });
+ mongoose.connect('mongodb://localhost/scraped_news', { useMongoClient: true });
 
 
 
