@@ -7,6 +7,14 @@ body{
   flex-direction: column;
 }
 
+
+.articleBody{
+  height: 200px;
+  font-size: 20px;
+  overflow-y: scroll;
+  line-height: 150%;
+}
+
 #nameComment{
   font-weight: bold;
   color: black;
